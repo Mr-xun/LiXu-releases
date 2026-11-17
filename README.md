@@ -189,14 +189,15 @@
 
 ## 下载与安装
 
-前往 [GitHub Releases](https://github.com/Mr-xun/LiXu-releases/releases) 下载正式版安装包（当前版本：`v0.1.0`）：
+前往 [GitHub Releases](https://github.com/Mr-xun/LiXu-releases/releases) 下载正式版安装包（当前版本：`v0.1.1`）：
 
 | 平台 | 适用设备 | 安装包格式 |
 | --- | --- | --- |
-| **macOS Apple Silicon** | M1 / M2 / M3 / M4 | `理序-<版本号>-mac-arm64.dmg` / `.zip` |
-| **macOS Intel** | Intel 处理器 Mac | `理序-<版本号>-mac-x64.dmg` / `.zip` |
-| **Windows 64 位** | Windows 10 / 11 x64 | `理序-<版本号>-win-x64.exe` |
+| **macOS Apple Silicon** | M1 / M2 / M3 / M4 | `LiXu-<版本号>-mac-arm64.dmg` / `.zip` |
+| **macOS Intel** | Intel 处理器 Mac | `LiXu-<版本号>-mac-x64.dmg` / `.zip` |
+| **Windows 64 位** | Windows 10 / 11 x64 | `LiXu-<版本号>-win-x64.exe` |
 
+- 下载文件名使用 `LiXu-` 前缀，安装后应用显示为「理序」。普通用户只需选择 `.dmg` 或 `.exe`；`latest*.yml`、`.blockmap` 用于应用更新，不需要单独下载。
 - **版本**：本仓库只发布正式版安装包和正式版更新记录。安装或更新前请先等待应用内任务完成。
 - **首次打开**：**macOS** 提示未验证开发者时，右键应用选「打开」或在「系统设置 → 隐私与安全性」允许；**Windows** SmartScreen 提示点「更多信息 → 仍要运行」。
 
@@ -227,7 +228,7 @@ shasum -a 256 -c SHA256SUMS.txt --ignore-missing
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\理序-<版本号>-win-x64.exe -Algorithm SHA256
+Get-FileHash .\LiXu-<版本号>-win-x64.exe -Algorithm SHA256
 ```
 
 </details>
@@ -235,7 +236,7 @@ Get-FileHash .\理序-<版本号>-win-x64.exe -Algorithm SHA256
 ## 隐私边界与反馈交流
 
 - **本机优先，可控发送**：文件浏览、PDF / 图片加工与处理记录全部本机离线完成；仅主动发起 AI 整理或材料核对时，才将必要正文或低尺寸预览发往你指定的模型；目录「保留结构」时不发送文件内容；API Key 不进导出清单、源码或日志。
-- **问题反馈**：请前往 [GitHub Issues](https://github.com/Mr-xun/LiXu-releases/issues) 提交，附上**系统架构**（如 macOS 15 arm64 / Windows 11 x64）、**版本号**（如 `v0.1.0`）、**复现步骤**与**脱敏错误提示**，勿上传 Key、Authorization 头或敏感原件。
+- **问题反馈**：请前往 [GitHub Issues](https://github.com/Mr-xun/LiXu-releases/issues) 提交，附上**系统架构**（如 macOS 15 arm64 / Windows 11 x64）、**版本号**（如 `v0.1.1`）、**复现步骤**与**脱敏错误提示**，勿上传 Key、Authorization 头或敏感原件。
 - **产品介绍与演示**：更多场景介绍见 [理序 LiXu 官网](https://mr-xun.github.io/LiXu-releases/)。
 
 > **许可说明**：理序 LiXu 以专有软件形式分发，公开安装包与发布说明不表示公开应用源码或授予开源许可；安装包内第三方组件仍按各自许可证随包提供。
