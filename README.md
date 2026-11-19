@@ -189,7 +189,7 @@
 
 ## 下载与安装
 
-前往 [GitHub Releases](https://github.com/Mr-xun/LiXu-releases/releases) 下载正式版安装包（当前版本：`v0.1.2`）：
+前往 [GitHub Releases](https://github.com/Mr-xun/LiXu-releases/releases) 下载正式版安装包（当前版本：`v0.1.3`）：
 
 | 平台 | 适用设备 | 安装包格式 |
 | --- | --- | --- |
@@ -219,7 +219,7 @@ open "/Applications/理序.app"
 ## 隐私边界与反馈交流
 
 - **本机优先，可控发送**：文件浏览、PDF / 图片加工与处理记录全部本机离线完成；仅主动发起 AI 整理或材料核对时，才将必要正文或低尺寸预览发往你指定的模型；目录「保留结构」时不发送文件内容；API Key 不进导出清单、源码或日志。
-- **问题反馈**：请前往 [GitHub Issues](https://github.com/Mr-xun/LiXu-releases/issues) 提交，附上**系统架构**（如 macOS 15 arm64 / Windows 11 x64）、**版本号**（如 `v0.1.2`）、**复现步骤**与**脱敏错误提示**，勿上传 Key、Authorization 头或敏感原件。
+- **问题反馈**：请前往 [GitHub Issues](https://github.com/Mr-xun/LiXu-releases/issues) 提交，附上**系统架构**（如 macOS 15 arm64 / Windows 11 x64）、**版本号**（如 `v0.1.3`）、**复现步骤**与**脱敏错误提示**，勿上传 Key、Authorization 头或敏感原件。
 - **产品介绍与演示**：更多场景介绍见 [理序 LiXu 官网](https://mr-xun.github.io/LiXu-releases/)。
 
 > **许可说明**：理序 LiXu 以专有软件形式分发，公开安装包与发布说明不表示公开应用源码或授予开源许可；安装包内第三方组件仍按各自许可证随包提供。
